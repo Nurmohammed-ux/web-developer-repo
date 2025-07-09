@@ -238,18 +238,22 @@ section h2 {
 footer {
     padding: 130px 230px;
     display: flex;
-    gap: 100px;
+    gap: 200px;
 }
 .footer-column {
     width: 50%;
 }
 footer input[type="text"], footer input[type="email"], footer textarea {
     height: 64px;
-    width: 100;
+    width: 450px;
     background-color: white;
-    padding: 18px 25px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     display: block;
     margin-bottom: 24px;
+}
+.footer-title {
+    font-size: 28px;
+    font-weight: 700;
 }
