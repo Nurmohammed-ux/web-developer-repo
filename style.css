@@ -159,6 +159,17 @@ section h2 {
     font-weight: 600;
     color: #181818cd;
 }
+
+@media screen and (max-width= 576px) {
+    .about p {
+        width: 100%;
+    }
+    .about-items {
+        flex-direction: column;
+    }
+}
+
+
 /* what I do */
 .skills {
     padding: 60px 10%;
@@ -201,6 +212,12 @@ section h2 {
     color: #757575;
 }
 
+@media screen and (max-width: 576px) {
+    .services {
+        flex-direction: column;
+    }
+}
+
 /* Resume section styles */
 .section-title {
     font-size: 28px;
@@ -234,6 +251,12 @@ section h2 {
     margin-top: 50px;
 }
 
+@media screen and (max-width: 576px) {
+    .resume-container {
+        flex-direction: column;
+    }
+}
+
 /* Footer Styles */
 footer {
     padding: 130px 230px;
@@ -256,4 +279,17 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 .footer-title {
     font-size: 28px;
     font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"], footer textarea {
+        width: calc(100% - 40px);
+    }
 }
